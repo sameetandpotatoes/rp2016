@@ -1,0 +1,57 @@
+/*Styles from main page*/
+
+html, body {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../../assets/img/new-background.png") no-repeat center center fixed;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
+body {
+    /*@import url("http://fonts.googleapis.com/css?family=Roboto:400,700");*/
+    font-family: "Noto Sans", sans-serif;
+}
+
+.main-section {
+	margin: 5% 15% 0;
+    padding: 2% 5%;
+    background-color: rgba(103, 66, 114, 0.4);
+    color: white;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 3%;
+    font-weight: bolder;
+    color: #A38F3B;
+}
+
+.title-image {
+    height: auto;
+}
+
+@media only screen and (max-width : 992px) {
+    .description {
+        padding-top: 5%;
+    }
+    img {
+        width: 100%;
+        padding: 5% 0;
+    }
+}
+
+@media only screen and (min-width : 992px) {
+    .description {
+        padding-top: 6%;
+    }
+}
+
+.company-card {
+    background-color: white;
+    color: #2F0529;
+    padding: 2%;
+    border-top: 1px solid lightgray;
+}
