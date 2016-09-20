@@ -48,13 +48,81 @@ body {
     }
 }*/
 
+.card-picture {
+	height: auto;
+	width: 100%;
+  padding: 5%;
+	margin-left: auto;
+  margin-right: auto;
+	cursor: pointer;
+	-webkit-filter: grayscale(100%);
+	-webkit-transition: .5s ease-in-out;
+	-moz-filter: grayscale(100%);
+	-moz-transition: .5s ease-in-out;
+	-o-filter: grayscale(100%);
+	-o-transition: .5s ease-in-out;
+	filter: grayscale(100%);
+}
+
+.card-picture:hover {
+	-webkit-filter: grayscale(0%);
+	-webkit-transition: .5s ease-in-out;
+	-moz-filter: grayscale(0%);
+	-moz-transition: .5s ease-in-out;
+	-o-filter: grayscale(0%);
+	-o-transition: .5s ease-in-out;
+	filter: grayscale(0%);
+}
+
 .company-card {
-    margin: 2% 0;
-    background-color: white;
-    color: #2F0529;
-    padding: 2%;
-    font-size: 1em;
-    border-top: 1px solid lightgray;
+  vertical-align: middle;
+  padding: 0 2% 4%;
+	margin-bottom: 3%;
+	background-color: white;
+	display: inline-block;
+	background-clip:content-box;
+	color: #2F0529;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.company-card-subtitle {
+	text-align: center;
+	font-size: 1.1em;
+}
+
+.company-card-picture {
+  height: auto;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.card-container {
+	position: relative;
+	height: 100%;
+	padding-bottom: 0%;
+}
+
+.card-overlay {
+	position: absolute;
+	bottom: 0;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	padding: 0 0.7em;
+	cursor: pointer;
+}
+
+.card-overlay-content {
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	overflow: hidden;
+	margin: 3% 5%;
 }
 
 @media only screen and (min-width : 768px) {

@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- <link rel="stylesheet" href="../assets/css/styles.css"> -->
 </head>
 
 <body>
@@ -18,38 +19,44 @@
 </div>
 
     <!-- Scripts -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
     <script
         src="https://code.jquery.com/jquery-3.1.0.js"
         integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="
         crossorigin="anonymous">
     </script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>
     <script id="companies-template" type="text/x-handlebars-template">
+        <div class="row" id="companies">
         {{#each this}}
-        <div class="row company-card">
-            <div class="company-card-logo col-md-12 col-lg-3">
-                <a href="{{link}}">
-                    <img src="{{image}}">
-                </a>
-            </div>
-
-            <div class="col-md-12 col-lg-9">
-                <p>
+     			<div class="col-sm-6 company-card" id="basil">
+     				<div class="card-container">
+     					<div class="card-overlay">
+     						<div class="card-overlay-content">
+                  <p>
                     {{description}}
-                 </p>
-                 <p>
-                     <span style="font-weight:bold">Opportunities: </span>
-                     <span>{{seeking}}</span>
-                 </p>
-                 <p>
-                     <span style="font-weight:bold">Work Authorization: </span>
-                     <span>{{work}}</span>
-                 </p>
-             </div>
-         </div>
-         {{/each}}
+                  </p>
+                  <h5 class="company-card-subtitle">
+                    <span style="font-weight:bold">Work Authorization: </span>
+                    <span>{{work}}</span>
+                  </h5>
+                  <h5 class="company-card-subtitle">
+                    <span style="font-weight:bold">Opportunities: </span>
+                    <span>{{seeking}}</span>
+                  </h5>
+     						</div>
+     					</div>
+              <img class="card-picture" src="{{image}}"/>
+              <!-- <h5 class="company-card-subtitle">
+                <span style="font-weight:bold">Opportunities: </span>
+                <span>{{seeking}}</span>
+              </h5> -->
+            </div>
+          </div>
+        {{/each}}
+        </div>
     </script>
+    
     <script src="assets/js/main.js"></script>
 </body>
 

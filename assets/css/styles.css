@@ -432,7 +432,7 @@ ul > li > a {
 	border-bottom: 1px dotted #2F0529;
 }
 
-.speaker-card-picture {
+.card-picture {
 	height: auto;
 	width: 100%;
 	margin-left: auto;
@@ -447,7 +447,7 @@ ul > li > a {
 	filter: grayscale(100%);
 }
 
-.speaker-card-picture:hover {
+.card-picture:hover {
 	-webkit-filter: grayscale(0%);
 	-webkit-transition: .5s ease-in-out;
 	-moz-filter: grayscale(0%);
@@ -467,13 +467,13 @@ ul > li > a {
 	font-size: 0.9em;
 }
 
-.speaker-card-container {
+.card-container {
 	position: relative;
 	height: 100%;
 	padding-bottom: 2%;
 }
 
-.speaker-card-overlay {
+.card-overlay {
 	position: absolute;
 	bottom: 0;
 	z-index: 999;
@@ -484,7 +484,7 @@ ul > li > a {
 	cursor: pointer;
 }
 
-.speaker-card-overlay-content {
+.card-overlay-content {
 	position: absolute;
 	top: 50%;
 	transform: translate(0, -50%);
@@ -493,13 +493,13 @@ ul > li > a {
 }
 
 @media only screen and (min-width: 200px) {
-	.speaker-card-overlay-content {
+	.card-overlay-content {
 		font-size: 3vw;
 	}
 }
 
 @media only screen and (min-width: 560px) {
-	.speaker-card-overlay-content {
+	.card-overlay-content {
 		font-size: 2vw;
 	}
 }
@@ -511,13 +511,13 @@ ul > li > a {
 }
 
 @media only screen and (min-width: 768px) {
-	.speaker-card-overlay-content {
+	.card-overlay-content {
 		font-size: 1.3vw;
 	}
 }
 
 @media only screen and (min-width: 1200px) {
-	.speaker-card-overlay-content {
+	.card-overlay-content {
 		font-size: 0.8vw;
 	}
 }

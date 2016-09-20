@@ -57,13 +57,13 @@ $(document).ready(function(){
     });
 
     // Handles revealing of speaker bio cards.
-    $('.speaker-card-overlay').hide();
-    $('.speaker-card-picture').click(function() {
-        $('.speaker-card-overlay').not($(this).find('.speaker-card-overlay')).slideUp('slow');
-        $(this).parent().find('.speaker-card-overlay').slideToggle('slow');
+    $('.card-overlay').hide();
+    $('.card-picture').click(function() {
+        $('.card-overlay').not($(this).find('.card-overlay')).slideUp('slow');
+        $(this).parent().find('.card-overlay').slideToggle('slow');
     });
 
-    $('.speaker-card-overlay').click(function() {
+    $('.card-overlay').click(function() {
         console.log("Clicky");
         $(this).slideUp('slow');
     });
