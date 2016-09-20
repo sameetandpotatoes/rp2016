@@ -302,7 +302,7 @@ ul > li > a {
 
 .about_section_grid {
 	padding: 5%;
-	background-color: rgba(103, 66, 114, 0.6);
+	background-color: rgba(103, 66, 114, 0.25);
 }
 
 .about_section_card {
@@ -332,6 +332,11 @@ ul > li > a {
   top: 0;
   width: 100%;
   display: none;
+}
+
+.about_section_description {
+	text-align: left;
+	font-size: 1em
 }
 
 .about_section_subtitle {
