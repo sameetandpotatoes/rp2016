@@ -505,6 +505,10 @@ ul > li > a {
 	margin: 3% 5%;
 }
 
+.speaker-card-overlay-content p b {
+	font-size: 1.1vw;
+}
+
 @media only screen and (min-width: 200px) {
 	.speaker-card-overlay-content {
 		font-size: 3vw;
@@ -531,7 +535,7 @@ ul > li > a {
 
 @media only screen and (min-width: 1200px) {
 	.speaker-card-overlay-content {
-		font-size: 0.8vw;
+		font-size: 0.9vw;
 	}
 }
 
