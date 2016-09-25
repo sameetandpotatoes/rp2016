@@ -219,6 +219,11 @@ ul > li > a {
 	font-weight: lighter;
 }
 
+nav > ul > li > a:active, a:visited, a:focus {
+	text-decoration: none;
+	color: inherit;
+}
+
 .mobile {
 	display: none;
 	width: 100%;
