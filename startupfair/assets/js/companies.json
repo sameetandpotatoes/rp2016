@@ -2,7 +2,7 @@
   {
     "name": "Reconstruct",
     "image": "assets/logos/reconstruct.png",
-    "seeking": "Full-time, Summer Internship",
+    "seeking": "Full-time, Summer Internship, Co-OP",
     "work": "International Visas Accepted",
   	"description": "Predictive Computer Vision Data Analytics on Construction Sites",
     "link": "http://researchpark.illinois.edu/directory/reconstruct-inc"
@@ -11,7 +11,7 @@
     "name": "Nylas",
     "link": "https://www.nylas.com/",
     "image": "assets/logos/nylas.png",
-    "seeking": "Co-Op",
+    "seeking": "Full-time, Co-Op",
     "work": "Permanent Residency Accepted",
   	"description": "The world of email is broken. Old protocols, obscure data formats, and fragmented standards have left developers frustrated. And email products woefully haven’t become collaborative or extensible. We want to change that, by creating a modern layer for email, contacts, and calendar. Our mission is to build elegant products for large complex systems."
   },
@@ -35,7 +35,7 @@
     "name": "Granular",
     "link": "https://www.granular.ag/",
     "image": "assets/logos/granular.png",
-    "seeking": "Full-time",
+    "seeking": "Full-time, Internships",
     "work": "International Visas Accepted",
   	"description": "Granular, a new kind of farm management software and analytics platform, helps you make the right calls and helps your team get more done."
   },
@@ -43,7 +43,7 @@
     "name": "Atipica",
     "link": "https://www.atipica.co/",
     "image": "assets/logos/atipica.png",
-    "seeking": "Summer Internship",
+    "seeking": "Full-time, Summer Internship",
     "work": "Permanent Residency Accepted",
   	"description": "Analytics and insights into your funnel trends. By extracting information from your ATS and resume data, we have created a business intelligence solution tailored to your company's recruiting history and hiring needs."
   },
@@ -67,7 +67,7 @@
     "name": "Gigster",
     "link": "https://gigster.com",
     "image": "assets/logos/gigster.png",
-    "seeking": "Full-time",
+    "seeking": "Full-time, Internships",
     "work": "International Visas Accepted",
   	"description": "Gigster is the fastest and easiest way to build your custom tech. Website design, app development and custom software on demand."
   },
@@ -91,13 +91,13 @@
     "name": "CloudFlare",
     "link": "https://www.cloudflare.com",
     "image": "assets/logos/cloudflare.jpg",
-    "seeking": "Full-time",
+    "seeking": "Full-time, Internships",
     "work": "International Visas Accepted",
   	"description": "CloudFlare is a free global CDN, DNS, DDoS protection & web security provider that can speed up and protect any site online."
   },
   {
     "name": "Truepad",
-    "link": "https://www.truepad.com",
+      "link": "https://www.truepad.com",
     "image": "assets/logos/truepad.jpg",
     "seeking": "Summer Internship",
     "work": "Permanent Residency Accepted",
@@ -123,7 +123,7 @@
     "name": "Sprout Social",
     "link": "http://sproutsocial.com",
     "image": "assets/logos/sproutsocial.png",
-    "seeking": "Summer Internship",
+    "seeking": "Full-time, Summer Internship",
     "work": "U.S. Citizens",
   	"description": "Founded in 2010, Sprout Social is built on the idea that the world is better when businesses and customers communicate freely. We exist to help streamline and enhance those conversations—with customers, prospects and enthusiasts. Our platform is packed with handy features but stays out of the way to let brands easily engage with people and build lasting relationships."
   },
@@ -139,7 +139,7 @@
     "name": "Databricks",
     "link": "https://databricks.com",
     "image": "assets/logos/databricks.png",
-    "seeking": "Full-time",
+    "seeking": "Full-time, Summer Internship",
     "work": "Permanent Residency Accepted",
   	"description": "Databricks was founded out of the UC Berkeley AMPLab by the team that created Apache Spark. We’ve been working for the past six years on cutting-edge systems to extract value from Big Data. We believe that Big Data is a huge opportunity that is still largely untapped, and we’re working to revolutionize what you can do with it."
   },
@@ -147,7 +147,7 @@
     "name": "Clustrix",
     "link": "http://www.clustrix.com",
     "image": "assets/logos/clustrix.png",
-    "seeking": "Summer Internship",
+    "seeking": "Full-time, Summer Internship",
     "work": "Permanent Residency Accepted",
   	"description": "Clustrix provides the leading scale-out relational database engineered for the cloud or data center. ClustrixDB is a drop-in replacement for MySQL and an ideal solution for high-transaction, high-value workloads typically found in businesses such as ad tech, e-commerce, gaming and large web and mobile businesses. Our customers use ClustrixDB for critical business applications that support massive transactional volume and real-time reporting of business performance metrics. ClustrixDB delivers more than twenty-five trillion transactions per month for customers including AOL, Flipkart, MakeMyTrip, Choxi, Photobox, Rakuten and Symantec."
   },
@@ -155,7 +155,7 @@
     "name": "Uptake Technologies, Inc",
     "link": "http://uptake.com",
     "image": "assets/logos/uptaketechnologies.png",
-    "seeking": "Summer Internship",
+    "seeking": "Full-time, Summer Internship",
     "work": "International Visas Accepted",
   	"description": "We help companies understand and act on their data. Uptake is building the singular platform that defines data-driven insight in major global industries. We unlock answers, and our answers create value."
   },
@@ -163,7 +163,7 @@
     "name": "Qualtrics",
     "link": "https://www.qualtrics.com",
     "image": "assets/logos/qualtrics.png",
-    "seeking": "Full-time",
+    "seeking": "Full-time, Summer Internships",
     "work": "U.S. Citizens",
   	"description": "Qualtrics gives organizations complete control over their customer experience programs. Respond to customer needs, analyze trends, and make changes in real time. Qualtrics is easy to use, extremely flexible, and automates processes that drive action."
   }
