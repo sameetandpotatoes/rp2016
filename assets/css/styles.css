@@ -505,19 +505,39 @@ ul > li > a {
 	margin: 3% 5%;
 }
 
-.speaker-card-overlay-content p b {
-	font-size: 1.1vw;
-}
-
 @media only screen and (min-width: 200px) {
 	.speaker-card-overlay-content {
 		font-size: 3vw;
+	}
+	.speaker-card-overlay-content p b {
+		font-size: 3.2vw;
 	}
 }
 
 @media only screen and (min-width: 560px) {
 	.speaker-card-overlay-content {
 		font-size: 2vw;
+	}
+	.speaker-card-overlay-content p b {
+		font-size: 2.2vw;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.speaker-card-overlay-content {
+		font-size: 1.3vw;
+	}
+	.speaker-card-overlay-content p b {
+		font-size: 1.5vw;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.speaker-card-overlay-content {
+		font-size: 0.9vw;
+	}
+	.speaker-card-overlay-content p b {
+		font-size: 1.1vw;
 	}
 }
 
@@ -526,19 +546,6 @@ ul > li > a {
 		width: 100%;
 	}
 }
-
-@media only screen and (min-width: 768px) {
-	.speaker-card-overlay-content {
-		font-size: 1.3vw;
-	}
-}
-
-@media only screen and (min-width: 1200px) {
-	.speaker-card-overlay-content {
-		font-size: 0.9vw;
-	}
-}
-
 
 @media only screen and (max-width: 1048px) {
    .speaker-card-title { font-size: 1.3em; }
