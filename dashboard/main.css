@@ -9,6 +9,11 @@ body {
     height: 100%;
 }
 
+a:hover, a:focus, a:visited, a:active {
+    text-decoration: none;
+    color: white;
+}
+
 .overlay {
     position: absolute;
     top: 0;
@@ -19,6 +24,10 @@ body {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 0;
+}
+
+.accent {
+    color: #674272;
 }
 
 .main-content-area {
@@ -59,8 +68,14 @@ body {
 
 .footer > .container {
     text-align: center;
-    border-top: 1px solid white;
-    padding: 1em;
+    border-top: 1px solid rgba(255, 255, 255, .7);
+}
+
+.footer > .container > .buttons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .flip-clock-divider .flip-clock-label {
