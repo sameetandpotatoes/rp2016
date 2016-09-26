@@ -27,7 +27,11 @@ a:hover, a:focus, a:visited, a:active {
 }
 
 .accent {
-    color: #674272;
+    color: #A38F3B;
+}
+
+.strong {
+    font-weight: bolder;
 }
 
 .main-content-area {
@@ -49,6 +53,15 @@ a:hover, a:focus, a:visited, a:active {
     -moz-transform: scale(1.2)
 }
 
+.logo {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.logo > img {
+    width: 100%;
+}
+
 .footer {
     width: 100%;
     position: absolute;
@@ -68,7 +81,7 @@ a:hover, a:focus, a:visited, a:active {
 
 .footer > .container {
     text-align: center;
-    border-top: 1px solid rgba(255, 255, 255, .7);
+    /*border-top: 1px solid rgba(255, 255, 255, .7);*/
 }
 
 .footer > .container > .buttons {
@@ -76,6 +89,7 @@ a:hover, a:focus, a:visited, a:active {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: white;
 }
 
 .flip-clock-divider .flip-clock-label {
