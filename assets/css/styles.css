@@ -568,32 +568,40 @@ nav > ul > li > a:active, a:visited, a:focus {
  * FAQ
  */
 
- .faq-section {
+.faq-section {
  	padding: 3% 5%;
  	background-color: white;
  	color: #2F0529;
- 	margin: 5% 10%;
- }
+ 	margin: 5% 1%;
+}
 
- .faq-section a{
+.faq-section a{
    color: #A38F3B;
- }
+}
 
+@media only screen and (min-width: 768px) {
+	.faq-section {
+		margin: 5% 5%;
+	}
+}
 
-  @media only screen and (min-width: 560px) {
- 	 .faq-section {
- 	 	margin: 5% 0%;
- 	 }
-  }
+@media only screen and (min-width: 992px) {
+   .faq-section {
+ 	 	margin: 5% 10%;
+   }
+}
 
- @media only screen and (min-width: 768px) {
-	 .faq-section {
-	 	padding: 3% 3%;
-	 	background-color: white;
-	 	color: #2F0529;
-	 	margin: 5% 25%;
-	 }
- }
+@media only screen and (min-width: 1200px) {
+	.faq-section {
+		margin: 5% 15%;
+	}
+}
+
+@media only screen and (min-width: 1400px) {
+	.faq-section {
+		margin: 5% 25%;
+	}
+}
 
 
 .faq-question {
