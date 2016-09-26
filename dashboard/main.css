@@ -57,7 +57,9 @@ a:hover, a:focus, a:visited, a:active {
 .flip-clock-wrapper {
     text-align: center;
     margin: 0 !important;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: center;
     align-content: center;
     justify-content: center;
 }
