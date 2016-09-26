@@ -80,6 +80,7 @@ a:hover, a:focus, a:visited, a:active {
     min-height: 100px;
     max-height: 200px;
     z-index: 999;
+    color: white;
 }
 
 .footer > .container {
