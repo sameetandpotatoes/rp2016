@@ -40,6 +40,8 @@ a:hover, a:focus, a:visited, a:active {
 
 .main-content-area {
     z-index: 999;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .main-content-area-wrapper {
@@ -52,9 +54,17 @@ a:hover, a:focus, a:visited, a:active {
     color: white;
 }
 
+.flip-clock-wrapper {
+    text-align: center;
+    margin: 0 !important;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
 .clock {
     zoom: 1.2;
-    -moz-transform: scale(1.2)
+    -moz-transform: scale(1.2);
 }
 
 .flip-clock-divider .flip-clock-label {
