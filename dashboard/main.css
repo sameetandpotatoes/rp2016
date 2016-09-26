@@ -1,0 +1,15 @@
+body {
+    background: url(img/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.main-content-area {
+    position: absolute;
+    top: 80px;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 60%;
+    width: 100%;
+}
