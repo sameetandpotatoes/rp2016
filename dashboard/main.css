@@ -13,3 +13,8 @@ body {
     height: 60%;
     width: 100%;
 }
+
+.clock {
+    zoom: 2.5;
+  -moz-transform: scale(2.5)
+}
