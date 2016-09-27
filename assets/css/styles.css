@@ -539,7 +539,7 @@ nav > ul > li > a:active, a:visited, a:focus {
 
 @media only screen and (min-width: 1200px) {
 	.speaker-card-overlay-content {
-		font-size: 0.9vw;
+		font-size: 0.85vw;
 	}
 	.speaker-card-overlay-content p b {
 		font-size: 1.1vw;
