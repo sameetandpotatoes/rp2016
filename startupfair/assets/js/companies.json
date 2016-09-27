@@ -166,5 +166,13 @@
     "seeking": "Full-time, Summer Internships",
     "work": "U.S. Citizens",
   	"description": "Qualtrics gives organizations complete control over their customer experience programs. Respond to customer needs, analyze trends, and make changes in real time. Qualtrics is easy to use, extremely flexible, and automates processes that drive action."
+  },
+    {
+    "name": "Veriflow",
+    "link": "http://www.veriflowsystems.com",
+    "image": "assets/logos/veriflow.png",
+    "seeking": "Full-time",
+    "work": "International Visas Accepted",
+  	"description": "Network security architecture, founded by Computer Science professors Dr. Brighten Godfrey and Matthew Casear. A software system to automatically verify whether computer networks are operating securely and correctly, and assist network operators in determining the cause of problems."
   }
 ]
